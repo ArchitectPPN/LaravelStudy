@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/ppn', function(){
     return 'ppn';
 });
+
+Route::get('getUSerDetail', 'User\\UserController@getUSerDetail');

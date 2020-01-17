@@ -16,7 +16,7 @@ class UserException
      */
     public static function checkUserExist()
     {
-        throw new \Exception('User Exist');
+        throw new UserExceptionDefined(UserExceptionDefined::EMPTY_PHONE);
     }
 
     /**
@@ -29,7 +29,7 @@ class UserException
      */
     public static function checkUserNameStringLength()
     {
-        throw new \Exception('Name too long~');
+        throw new UserExceptionDefined(UserExceptionDefined::EMPTY_PHONE);
     }
 
     /**

@@ -24,7 +24,6 @@ class ComposerAutoloaderInit8b0cdece45084d5062122f7543900821
         spl_autoload_unregister(array('ComposerAutoloaderInit8b0cdece45084d5062122f7543900821', 'loadClassLoader'));
 
         $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());
-
         if ($useStaticLoader) {
             require_once __DIR__ . '/autoload_static.php';
 
@@ -46,7 +45,6 @@ class ComposerAutoloaderInit8b0cdece45084d5062122f7543900821
             }
         }
 
-
         $loader->register(true);
 
         if ($useStaticLoader) {
@@ -64,7 +62,6 @@ class ComposerAutoloaderInit8b0cdece45084d5062122f7543900821
 
 function composerRequire8b0cdece45084d5062122f7543900821($fileIdentifier, $file)
 {
-    // 加载文件
     if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
         require $file;
 

@@ -20,3 +20,4 @@ Route::get('/ppn', function(){
 });
 
 Route::get('getUSerDetail', 'User\\UserController@getUSerDetail');
+Route::get('getTableName', 'User\\UserController@getTableName');

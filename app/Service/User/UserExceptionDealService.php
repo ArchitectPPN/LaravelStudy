@@ -19,7 +19,7 @@ class UserExceptionDealService
     {
         foreach ($aCallFunc as $index => $value){
             $value = 'check' . $value;
-            echo $sClassName::$value();
+            $sClassName::$value();
         }
     }
 }

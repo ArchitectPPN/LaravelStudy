@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac88e935-135c-4ac8-81fd-a871a6dc27c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Data/Data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Helper/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Service/DB/DbException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Service/DB/DbExceptionDefined.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Service/DB/DbService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Service/DB/DbServiceDealService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Service/User/UserExceptionDealService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserExceptionDealService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserExceptionDefined.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserExceptionDefined.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,6 +167,9 @@
       <workItem from="1579181364383" duration="5046000" />
       <workItem from="1579223707592" duration="13060000" />
       <workItem from="1579396100851" duration="10519000" />
+      <workItem from="1579491628648" duration="690000" />
+      <workItem from="1580125401992" duration="2557000" />
+      <workItem from="1581490527999" duration="511000" />
     </task>
     <servers />
   </component>

@@ -29,7 +29,7 @@ class UserException
      */
     public static function checkUserNameStringLength()
     {
-        throw new UserExceptionDefined(UserExceptionDefined::EMPTY_PHONE);
+        throw new UserExceptionDefined(UserExceptionDefined::USER_NAME_LENGTH_ILLEGAL);
     }
 
     /**

@@ -16,4 +16,9 @@ class Controller extends BaseController
     {
         return JsonReturn::success(...$args);
     }
+
+    public function error(...$args)
+    {
+        return JsonReturn::error(...$args);
+    }
 }

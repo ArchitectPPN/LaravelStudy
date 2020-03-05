@@ -3,6 +3,7 @@
 
 namespace App\Helper;
 
+use Illuminate\Http\Response;
 
 class JsonReturn
 {
@@ -34,20 +35,27 @@ class JsonReturn
      *
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      */
-    public static function com($code, $msg, array $args)
+    public static function com(int $code,string $msg, array $args)
     {
-        return self::json($code, $msg, $args[1]);
+        $count = count($args);
+        switch ($count){
+            case 1:
+                return self::json($code, $msg, $args[0], []);
+            default:
+                return self::json(200, 'success', $args, []);
+                break;
+        }
     }
 
     /**
-     *
-     * @param $code
-     * @param $msg
-     * @param $data
+     * @param       $code
+     * @param       $msg
+     * @param       $data
+     * @param array $ext
      *
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      */
-    public static function json($code, $msg, $data)
+    public static function json($code, $msg, $data, array $ext)
     {
         $ret = [
             'code' => $code,
@@ -55,11 +63,14 @@ class JsonReturn
             'data' => $data,
         ];
 
+        if(!empty($ext)){
+            $ret= array_merge($ext, $ret);
+        }
+
         return Response(json_encode($ret, JSON_UNESCAPED_UNICODE | JSON_OBJECT_AS_ARRAY), 200, [
             'Content-Type' => 'application/json; charset=utf-8',
             'P3P'          => 'CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"'
         ]);
-
     }
 
 }

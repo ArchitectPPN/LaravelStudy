@@ -4,15 +4,22 @@
 namespace App\Data\User;
 
 
-class UserData
+use App\Data\Data;
+
+class UserData extends Data
 {
-    public static function getUserDataDetail()
+    const TABLE = 'db_user.tb_user';
+    protected $dbTable = self::TABLE;
+
+    /**
+     * 根据用户id获取用户详情
+     *
+     * @param int $iUserId
+     *
+     * @return string
+     */
+    public function getUserDataDetail(int $iUserId)
     {
-        return [
-            'name'   => 'PPN' ,
-            'sex'    => 'male' ,
-            'age'    => 20 ,
-            'skills' => 'Php Develop' ,
-        ];
+        return $this->getFirstOne([['iUserId', '=', $iUserId]]);
     }
 }

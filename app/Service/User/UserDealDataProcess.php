@@ -8,8 +8,15 @@ use App\Data\User\UserData;
 
 class UserDealDataProcess
 {
-    public static function getUserDetail()
+    /**
+     * 得到用戶的詳細數據
+     *
+     * @param int $iUserId
+     *
+     * @return string
+     */
+    public static function getUserDetail(int $iUserId)
     {
-        return UserData::getUserDataDetail();
+        return  (new UserData())->getUserDataDetail($iUserId);
     }
 }

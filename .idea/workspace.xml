@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac88e935-135c-4ac8-81fd-a871a6dc27c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Lib/Logging/LogFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Lib/Logging/LogInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Lib/Traits/ClassConstantTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Lib/Traits/SingletonTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Service/User/UserException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Service/User/UserExceptionDealService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserExceptionDealService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Service/User/UserExceptionDefined.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserExceptionDefined.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Data/User/UserData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/User/UserData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helper/JsonReturn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helper/JsonReturn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserDealData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserDealData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserDealDataProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserDealDataProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +134,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,7 +180,10 @@
       <workItem from="1579396100851" duration="10519000" />
       <workItem from="1579491628648" duration="690000" />
       <workItem from="1580125401992" duration="2557000" />
-      <workItem from="1581490527999" duration="511000" />
+      <workItem from="1581490527999" duration="1142000" />
+      <workItem from="1581492073719" duration="6228000" />
+      <workItem from="1581509427768" duration="1311000" />
+      <workItem from="1581511772748" duration="8377000" />
     </task>
     <servers />
   </component>

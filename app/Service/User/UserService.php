@@ -12,19 +12,22 @@ class UserService
      * Auth        : NiuJunQing
      * Create      : 1/16/2020 10:16 PM
      * Description :
-     * @return array
+     *
+     * @param int $iUserId
+     *
+     * @return string
      */
-    public static function getUSerDetail()
+    public static function getUSerDetail(int $iUserId)
     {
-        $aCallFunc = [
-            'UserNameStringLength' ,
-        ];
-
-        // 检验
-        UserExceptionDealService::checkUser(UserException::class , $aCallFunc);
+//        $aCallFunc = [
+//            'UserNameStringLength' ,
+//        ];
+//
+//        // 检验
+//        UserExceptionDealService::checkUser(UserException::class , $aCallFunc);
 
         // 数据处理
-        $aUserData = UserDealData::getUserDetail();
+        $aUserData = UserDealData::getUserDetail($iUserId);
 
         // 返回数据
         return $aUserData;

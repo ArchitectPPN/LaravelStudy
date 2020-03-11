@@ -21,3 +21,8 @@ Route::get('/', function () {
     echo 'Hello world~';
 });
 
+Route::group(['prefix' => 'api', 'namespace' => 'API'], function(){
+    Route::group(['prefix' => 'v1', 'namespace' => 'User'], function(){
+        Route::post('updateUserInfo', 'UserController@updateUserInfo');
+    });
+});

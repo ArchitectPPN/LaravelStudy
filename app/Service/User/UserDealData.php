@@ -17,4 +17,16 @@ class UserDealData
     {
         return UserDealDataProcess::getUserDetail($iUserId);
     }
+
+    /**
+     * 更新用户数据
+     *
+     * @param array $aUserData
+     *
+     * @return mixed
+     */
+    public static function updateUserInfo(array $aUserData)
+    {
+        return UserDealDataProcess::updateUserDetail($aUserData);
+    }
 }

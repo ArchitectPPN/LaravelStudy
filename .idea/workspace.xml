@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac88e935-135c-4ac8-81fd-a871a6dc27c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Lib/Logging/LogFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Lib/Logging/LogInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Lib/Traits/ClassConstantTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Lib/Traits/SingletonTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/User/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Data/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/Data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Data/User/UserData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/User/UserData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helper/JsonReturn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helper/JsonReturn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Lib/Traits/SingletonTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lib/Traits/SingletonTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Service/User/UserDealData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserDealData.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Service/User/UserDealDataProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserDealDataProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Service/User/UserExceptionDefined.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserExceptionDefined.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Service/User/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service/User/UserService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/API" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,7 +151,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\LaravelStudy\app\Http\Controllers\API" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\LaravelStudy\app\Http\Controllers\API" />
+      <recent name="C:\laragon\www\LaravelStudy\app\Http\Controllers\User" />
       <recent name="C:\laragon\www\LaravelStudy" />
     </key>
   </component>
@@ -184,6 +203,8 @@
       <workItem from="1581492073719" duration="6228000" />
       <workItem from="1581509427768" duration="1311000" />
       <workItem from="1581511772748" duration="8377000" />
+      <workItem from="1583399162862" duration="1877000" />
+      <workItem from="1583719975574" duration="11394000" />
     </task>
     <servers />
   </component>

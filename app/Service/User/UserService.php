@@ -2,10 +2,11 @@
 
 
 namespace App\Service\User;
-
+use App\lib\Traits\SingletonTrait;
 
 class UserService
 {
+    use SingletonTrait;
     /**
      * 得到用户的详情
      *
@@ -31,6 +32,21 @@ class UserService
 
         // 返回数据
         return $aUserData;
+    }
+
+    /**
+     * 更新用户数据
+     *
+     * @param array $aUserInfo
+     *
+     * @return mixed
+     * @throws \Exception
+     */
+    public function updateUserInfo(array $aUserInfo)
+    {
+        UserDealDataProcess::checkUserInfoExists($aUserInfo);
+
+        return UserDealData::updateUserInfo($aUserInfo);
     }
 }
 

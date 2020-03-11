@@ -4,7 +4,7 @@
 namespace App\Lib\Traits;
 
 
-class SingletonTrait
+trait SingletonTrait
 {
     /**
      * @var 实例

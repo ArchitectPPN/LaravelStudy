@@ -75,4 +75,19 @@ class Data
 
         return $oQuery;
     }
+
+    /**
+     * @param array $aConditionData
+     * @param array $aUpdateData
+     *
+     * @return mixed
+     */
+    public function conditionUpdate(array $aConditionData, array $aUpdateData)
+    {
+        if(!empty($this->autoUpdateTime)){
+            $aUpdateData = array_merge($aUpdateData, [$this->autoUpdateTime => date('Y-m-d H:i:s')]);
+        }
+
+        return $this->getWhere($aConditionData)->update($aUpdateData);
+    }
 }

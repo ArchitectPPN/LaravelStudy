@@ -19,5 +19,6 @@ Route::get('/ppn', function(){
     return 'ppn';
 });
 
-Route::get('getUSerDetail', 'User\\UserController@getUSerDetail');
+Route::get('getUserDetail', 'User\\UserController@getUserDetail');
 Route::get('getTableName', 'User\\UserController@getTableName');
+Route::post('updateUserInfo', 'User\\UserController@updateUserInfo');
